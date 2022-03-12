@@ -1,0 +1,64 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+body{
+   background-image: url('https://img.freepik.com/free-photo/vintage-camera-yellow-background-with-copy-space-world-photography-day-concept_101840-674.jpg?size=626&ext=jpg');
+   background-size: cover;
+}
+#img1:hover{
+   border-radius: 30px;
+   max-height: 900px;
+   max-width: 1000px;
+   border-style: ridge;
+   border-width: 2px;
+   padding:10px;
+   border-color: darkgray;
+}
+#img2:hover{
+    border-radius: 30px;
+    max-height: 900px;
+    max-width: 1000px;
+    border-style: ridge;
+    border-width: 2px;
+    padding:10px;
+    border-color: darkgray;
+ }
+ #img3:hover{
+    border-radius: 30px;
+    max-height: 900px;
+    max-width: 1000px;
+    border-style: ridge;
+    border-width: 2px;
+    padding:10px;
+    border-color: darkgray;
+ }
+ #div1{
+     max-height: 200px;
+     background-color: lightgray;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+ }
+ h1{
+    font-family: 'Courier New', Courier, monospace; 
+ }
+ h3, div, label{
+    font-family: 'Courier New', Courier, monospace; 
+ }

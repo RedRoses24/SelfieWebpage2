@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <title>My Selfie Collage Making Webpage</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+            <div class="row">
+        <div id="result" style="margin-top: 70px; margin-bottom: 20px;">
+                <div id="result1" class="container">
+                    <img src="https://www.lukas-petereit.com/wp-content/uploads/2017/10/Rakotzbr%C3%BCcke-Bridge-Rakotz-Kromlau-Lake-Sun-Sunrise-Landscape-Reflection-Germany-Saxony-Travel-Photography-Nature-Photo-Spreewald-2.jpg" style="width: 30%;" id="img1">
+                </div>
+                <div id="result2" class="container">
+                    <img src="https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg" style="width: 30%;" id="img3">
+                </div>
+                <div id="result3" class="container">
+                    <img src="https://tripspi-prod.imgix.net/blogs/60ewipugMR/Pfiv0-david-edelstein-N4DbvTUDikw-unsplash.jpg?ixlib=js-2.3.2&w=1024&auto=compress&fit=crop&s=919afc22d09ca569980b1c99fd2af23d" style="width: 30%;" id="img2">
+                </div>
+                </div>
+                </div>
+<div class="container" style="background-color:lightsalmon; border-radius: 20px; border-style: ridge; max-width: 1000%;">
+     <a href="" id="link" download="mypicture.png"> </a>
+        <h1>Voice Selfie App 
+<img src="https://image.shutterstock.com/image-vector/young-happy-man-taking-selfie-260nw-1154915947.jpg" id="logo_img">
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3>Say "take my selfie"</h3>
+            <label>Your voice output : </label>
+<textarea class="form-control" id="text-box" readonly="true"></textarea>
+        </div>
+<button class="btn btn-success" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+<div id="camera"></div>
+        <br>
+
+        <label>Your Picture Will Display Here: </label>
+<div id="result"></div>
+    </center>
+
+    </div>
+</div>
+<div id="div1" class="copy_right_footer"><h1>Developed By Kyra</h1></div>
+    <script src="main.js"></script>
+</body>
+</html>
